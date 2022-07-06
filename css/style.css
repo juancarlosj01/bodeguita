@@ -35,6 +35,8 @@
 
 html {
      scroll-behavior: smooth;
+     box-sizing: border-box;
+     font-size:62.5%; /*1REM = 10px*/
 }
 
 body {
@@ -154,6 +156,7 @@ a,
 img {
      max-width: 100%;
      height: auto;
+     
 }
 
  :focus {
@@ -368,6 +371,14 @@ ul.btn li:last-child {
      position: absolute;
      z-index: 999;
 }
+
+.logo img{
+
+    width:20rem;
+    
+}
+
+
 
 .logo a {
      font-size: 40px;
@@ -880,6 +891,7 @@ ul.btn li:last-child {
 .logo1 {
      float: left;
      margin-top: -30px;
+
 }
 
 ul.social_icon {
